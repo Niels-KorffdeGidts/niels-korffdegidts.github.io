@@ -1,0 +1,8 @@
+.custom-gap {
+    gap: 14rem;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
