@@ -6,3 +6,8 @@
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
 }
+
+.bg-box{
+    background-color: #d1dbed;
+    color: #1a1a1a;
+}
