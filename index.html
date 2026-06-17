@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Portfolio Niels Korff de Gidts</title>
+
+    <!--Links-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,21 +15,16 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <h1 class="bg-dark text-white text-center mb-0 display-3">Portfolio - Niels Korff de Gidts</h1>
-    <nav class="navbar navbar-expand-lg bg-primary mb-5">
+    <h1 class="bg-dark text-white text-center mb-0 display-3 bg-gradient">Portfolio - Niels Korff de Gidts</h1>
+
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg bg-primary mb-5 bg-gradient">
         <div class="container-fluid">
-            <a class="navbar-brand text-white fw-bold fs-3 logo" href="index.html">
-                KdG
+            <a class="navbar-brand" href="index.html">
+                <img src="img/Logo KDG (2).png" alt="Logo KDG" class="logo-img">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,9 +49,12 @@
             </div>
         </div>
     </nav>
+
+    <!-- ==MAIN== -->
     <main class="container flex-grow-1 mt-5">
         <div class="row g-4 align-items-stretch">
 
+            <!-- info-->
             <div class="col-12 col-md-5">
                 <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
                     <p class="fs-5 fw-bold">Wat leuk dat je interesse hebt in mijn portfolio!</p>
@@ -66,6 +67,7 @@
                 </div>
             </div>
 
+            <!-- profielfoto-->
             <div class="col-12 col-md-4 text-center">
                 <div class="d-flex flex-column justify-content-center align-items-center h-100">
                     <img src="https://dcrfonline.nl/wp-content/uploads/sites/12/2017/02/geen-profielfoto.png"
@@ -75,23 +77,37 @@
                 </div>
             </div>
 
+            <!--Skill list-->
             <div class="col-12 col-md-3">
                 <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
                     <h3 class="fs-5 fw-bold mb-4 text-center text-md-start">Wat ik leer:</h3>
-                    <ul class="list-unstyled lh-lg">
-                        <li class="mb-3">• HTML & CSS</li>
-                        <li class="mb-3">• Basis JavaScript</li>
-                        <li class="mb-3">• Webdesign</li>
-                        <li class="mb-0">• Digitale projecten</li>
+                    <ul class="">
+                        <li class="mb-3">HTML & CSS</li>
+                        <li class="mb-3">Basis JavaScript</li>
+                        <li class="mb-3">Webdesign</li>
+                        <li class="mb-3">Digitale projecten</li>
+                        <li class="mb-3">PhP</li>
+                        <li class="mb-3">Bootstrap</li>
+                        <li class="mb-3">My SQL</li>
                     </ul>
                 </div>
             </div>
-
         </div>
     </main>
-    <footer class="bg-dark text-white text-center py-2 mt-auto">
+
+    <!--Footer -->
+    <footer class="bg-dark text-white text-center py-2 mt-auto bg-gradient">
         &copy; 2026 Niels Korff de Gidts
     </footer>
+
+    <!--links-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
