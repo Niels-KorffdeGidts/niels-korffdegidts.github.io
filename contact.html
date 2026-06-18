@@ -12,13 +12,8 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -54,35 +49,76 @@
     <main class="container flex-grow-1 mt-5">
         <div class="row g-4 align-items-stretch">
 
-            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-1"></div>
 
+            <!-- meer contact opties -->
+            <div class="col-12 col-md-3">
+                <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="bi bi-person-lines-fill fs-4"></i>
+                        <h6 class="mb-0">Contact</h6>
+                    </div>
+                    <br>
+                    <p>
+                        Heeft u vragen of interesse in een samenwerking? Neem gerust contact met mij op via het
+                        formulier. Bekijk ook mijn GitHub en LinkedIn voor meer informatie over mijn projecten en
+                        ervaring.
+                    </p>
+                    <div>
+                        <a href="https://github.com/Niels-KorffdeGidts" target="_blank"
+                            class="text-dark text-decoration-none">
+                            <i class="bi bi-github fs-4"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/jouw-profiel/" target="_blank" class="text-primary ms-4">
+                            <i class="bi bi-linkedin fs-4"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-1"></div>
+
+            <!-- forms met formspree -->
             <div class="col-12 col-md-4">
                 <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
                     <form action="https://formspree.io/f/xgobbapn" method="POST">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
+                            <input type="email" class="form-control" id="exampleInputEmail1" name="email"
                                 aria-describedby="emailHelp">
                             <div id="emailHelp" class="form-text">Uw E-mail adres wordt nooit gedeeld</div>
                         </div>
 
                         <div class="mb-3">
                             <label for="message" class="form-label">Uw vraag of bericht</label>
-                            <input type="text" class="form-control" id="message">
+                            <textarea type="text" class="form-control" id="message" name="message"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Verzenden</button>
                     </form>
                 </div>
             </div>
 
-            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-3"></div>
         </div>
 
 
     </main>
+    <!-- footer -->
     <footer class="bg-dark text-white text-center py-2 mt-auto bg-gradient">
         &copy; 2026 Niels Korff de Gidts
     </footer>
 </body>
+<!-- links -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
 
 </html>
