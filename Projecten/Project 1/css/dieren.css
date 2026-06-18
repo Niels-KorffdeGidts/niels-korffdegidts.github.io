@@ -1,0 +1,156 @@
+/*css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url('https://th.bing.com/th/id/R.08e7dc0912a6115f71cc5d6c23a51096?rik=7Noo12gUbMw%2fDw&riu=http%3a%2f%2fgenietvangezond.nl%2fwp-content%2fuploads%2f2013%2f05%2fzee-strand-genietvangezond.jpg&ehk=y94WOKLOSxeuiOPAFFgJSKNOLMyfU7YzyH0h%2bKTUAdM%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-vragen-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 444px;
+  width: 777px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.question {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.image {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.answer-button {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.answer-button:hover {
+  background-color: #e6e6e6;
+}
+
+.footer {
+  font-size: 14px;
+  color: black;
+  margin-top: 10px;
+}
+
+.goed {
+  background-color: lightgreen;
+}
+
+.fout {
+  background-color: lightcoral;
+}
+
+/* ⬅️ Terugknop linksonder */
+.back-button {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #111;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+.back-button:hover {
+  background: #111;
+  color: white;
+  transform: scale(1.07);
+}
+
+.naam-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+/* Eindscherm styling */
+.eind-quiz-box {
+    background: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    max-width: 600px;
+    /* Gecentreerd in het midden van het scherm */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.eind-knoppen {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.eind-knoppen .button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.eind-knoppen .button:hover {
+    background: #5a6fd8;
+    transform: translateY(-2px);
+}

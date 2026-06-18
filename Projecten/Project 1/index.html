@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="css/dieren.css" />
+</head>
+<body>
+
+  <div class="quiz-vragen-box">
+    <h1>Dieren</h1>
+    <div class="question" id="vraag">De vraag</div>
+    <img src="https://www.metronieuws.nl/wp-content/uploads/2020/07/Vos-02.jpg" alt="Afbeelding" class="image" id="image" />
+    
+    <div class="answers">
+      <button class="answer-button antwoord1">Antwoord 1</button>
+      <button class="answer-button antwoord2">Antwoord 2</button>
+      <button class="answer-button antwoord3">Antwoord 3</button>
+      <button class="answer-button antwoord4">Antwoord 4</button>
+    </div>
+
+    <div id="score">Score: 0</div>
+    <div id="bericht"></div>
+    <button id="fiftyFifty">50/50</button>
+    <button id="continue">Volgende</button>
+    <button class="back-button">Reset</button>
+    
+    <div class="footer"><h4>&copy;De Coders 2025</h4></div>
+  </div>
+  <button onclick="window.location.href='../index.html'" class="back-button">
+            ⬅️ Home
+        </button>
+                <div id="naamGebruiker" class="naam-container"></div>
+  <script src="js/dieren.js"></script>
+</body>
+</html>
