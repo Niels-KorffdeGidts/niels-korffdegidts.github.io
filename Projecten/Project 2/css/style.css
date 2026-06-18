@@ -1,0 +1,96 @@
+.cells {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: green;
+  padding: 10px;
+  width: 450px;
+  margin: 100px auto;
+  align-items: center;
+}
+
+.cells > div {
+  background: greenyellow;
+  border: 2px solid black;
+  height: 70px;
+  width: 70px;
+  font-size: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+h1 {
+text-align: center;
+background-color: bisque;
+border-bottom: solid black 2px;
+}
+
+.free {
+  background-color: lightgreen !important;
+}
+
+.bomb {
+  background-color: red !important; 
+}
+
+.message{
+  margin: 20px auto;
+  border: 2px solid red;
+  padding: 10px;
+  text-align: center;
+  width: 450px;
+  background-color: aliceblue;
+
+}
+.start-btn:hover{
+background-color: rgb(127, 247, 127);
+}
+.start-btn{
+  width: 400px;
+  height: 150px;
+  font-size: 30px;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  margin-top: 15%;
+  background-color: aliceblue;
+  border-radius: 30px;
+}
+
+.reset-btn:hover{
+  background-color: red;
+}
+.reset-btn{
+background-color: aliceblue;
+height: 50px;
+width: 150px;
+border-radius: 20px;
+}
+
+.start-text{
+  height: 50px;
+  width: 100px;
+}
+
+.start-h1{
+  text-align: center  ;
+}
+
+body{
+  background-image: url(https://i.pinimg.com/736x/0b/06/31/0b0631308b9ef35b27b1899aaf0a6fe4.jpg);
+  background-size:cover ;
+  background-repeat: none;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+
+.schildpad {
+  justify-self: center;
+  background-image: url(https://marketplace.canva.com/1Ijmg/MAGE5i1Ijmg/1/tl/canva-turtle-illustration-MAGE5i1Ijmg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1000;
+  width: 700px;
+  height: 800px;
+  padding-top: 150px;
+}
