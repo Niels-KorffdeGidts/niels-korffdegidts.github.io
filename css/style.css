@@ -22,5 +22,13 @@ header{
 }
 
 nav {
-    background-color: #27496d;
+    background-color: #467db8;
+}
+
+.navbar .nav-link:hover {
+    color: #b4eaff !important;
+}
+
+footer{
+    background-color: #1e3a5f;
 }
