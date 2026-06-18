@@ -15,17 +15,25 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <h1 class="bg-dark text-white text-center mb-0 display-3 bg-gradient">Portfolio - Niels Korff de Gidts</h1>
+    <header class="text-white mb-0 bg-gradient d-flex align-items-center justify-content-between px-4"
+        style="min-height: 80px;">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/Logo KDG (2).png" alt="Logo KDG" class="logo-img" style="height: 80px; width: auto;">
+        </a>
+
+        <h1 class="m-0 display-3 flex-grow-1 text-center pe-5">Portfolio - Niels Korff de Gidts</h1>
+    </header>
 
     <!-- navbar-->
-    <nav class="navbar navbar-expand-lg bg-primary mb-3 bg-gradient w-100">
+    <nav class="navbar navbar-expand-lg mb-3 bg-gradient w-100">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
+            <!-- <a class="navbar-brand" href="index.html">
                 <img src="img/Logo KDG (2).png" alt="Logo KDG" class="logo-img">
-            </a>
+            </a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,7 +51,7 @@
                         <a class="nav-link text-white" href="projecten.html">Projecten</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                        <a class="nav-link text-white" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -52,7 +60,7 @@
 
     <!-- ==MAIN== -->
     <main class="container flex-grow-1 mt-5">
-        <div class="row g-4 align-items-stretch">
+        <div class="row g-4 align-items-stretch mb-5">
 
             <!-- info-->
             <div class="col-12 col-md-5">
@@ -93,12 +101,239 @@
                 </div>
             </div>
         </div>
+
+
+
+        <section id="about-me" class="mb-5">
+
+            <h2 class="bg-dark text-white text-center mb-5 display-6 py-3 rounded-3 bg-gradient">About Me</h2>
+
+            <div class="row g-4 mb-4">
+                <div class="col-12">
+                    <div class="p-4 rounded-4 shadow-sm bg-box">
+                        <h3 class="fs-4 fw-bold text-primary mb-3">Wie ben ik?</h3>
+                        <p>Zoals ik al eerder heb gezegd is mijn naam <strong>Niels Korff de Gidts</strong>. Ik ben 17
+                            jaar oud en ik woon in Rijswijk. Ik woon daar samen met mijn ouders en mijn broertje. Ik heb
+                            verschillende hobby’s waar ik later in deze pagina over vertel.</p>
+                        <p class="mb-0">Als bijbaantje werk ik bij de <strong>Albert Heijn</strong>. Ik vul daar vaak de
+                            winkel bij, ik prijs ook best vaak af en ik help met het laden en lossen van de vrachtwagen.
+                            Ik vind het leuk om te werken, omdat ik daar met veel aardige collega’s werk en een aardig
+                            loon verdien.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+                <div class="col-12">
+                    <div class="p-4 rounded-4 shadow-sm bg-box">
+                        <h3 class="fs-4 fw-bold text-primary mb-3">Mijn Hobby's</h3>
+                        <p class="mb-0">In mijn vrije tijd game ik veel, spellen zoals <em>Rocket League</em> en
+                            <em>Minecraft</em>. Daarnaast hou ik van fietsen, het liefst grote mountainbike banen. Ook
+                            hou ik veel van series kijken en op vakantie ben ik dol op zwemmen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+                <div class="col-12">
+                    <div class="p-4 rounded-4 shadow-sm bg-box">
+                        <h3 class="fs-4 fw-bold text-primary mb-3">Mijn Programmeertalen</h3>
+                        <p class="mb-0">Ik vind het leuk om te programmeren, omdat ik nieuwe dingen kan maken en van een
+                            blanco site een hele website kan maken. Mijn favoriete programmeertaal is
+                            <strong>CSS</strong>, omdat je daarmee het uiterlijk van een pagina het meest beïnvloedt. Ik
+                            weet op dit moment het meeste over HTML en het minste over JavaScript, ik wil daar
+                            verandering in brengen om in alle 3 de talen een grote opdracht te maken.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 pb-5">
+
+                <div class="row g-4 pb-5">
+
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                            <h4 class="fs-5 fw-bold text-primary mb-2">HTML</h4>
+                            <div class="progress mt-3" role="progressbar" aria-label="HTML voortgang" aria-valuenow="97"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                <div class="progress-bar bg-success" style="width: 97%"></div>
+                            </div>
+                            <small class="text-muted mt-1 d-block">Begrip: 97%</small>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                            <h4 class="fs-5 fw-bold text-primary mb-2">JavaScript</h4>
+                            <div class="progress mt-3" role="progressbar" aria-label="JavaScript voortgang"
+                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                <div class="progress-bar bg-info text-dark" style="width: 85%"></div>
+                            </div>
+                            <small class="text-muted mt-1 d-block">Begrip: 85%</small>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                            <h4 class="fs-5 fw-bold text-primary mb-2">CSS</h4>
+                            <div class="progress mt-3" role="progressbar" aria-label="CSS voortgang" aria-valuenow="83"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                <div class="progress-bar bg-primary" style="width: 83%"></div>
+                            </div>
+                            <small class="text-muted mt-1 d-block">Begrip: 83%</small>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                            <h4 class="fs-5 fw-bold text-primary mb-2">MySQL</h4>
+                            <div class="progress mt-3" role="progressbar" aria-label="MySQL voortgang"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                <div class="progress-bar bg-warning text-dark" style="width: 75%"></div>
+                            </div>
+                            <small class="text-muted mt-1 d-block">Begrip: 75%</small>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                            <h4 class="fs-5 fw-bold text-primary mb-2">Database</h4>
+                            <div class="progress mt-3" role="progressbar" aria-label="Database voortgang"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                <div class="progress-bar bg-secondary" style="width: 70%"></div>
+                            </div>
+                            <small class="text-muted mt-1 d-block">Begrip: 70%</small>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                            <h4 class="fs-5 fw-bold text-primary mb-2">PHP</h4>
+                            <div class="progress mt-3" role="progressbar" aria-label="PHP voortgang" aria-valuenow="60"
+                                aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                <div class="progress-bar bg-danger" style="width: 60%"></div>
+                            </div>
+                            <small class="text-muted mt-1 d-block">Begrip: 60%</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="projecten" class="mb-5">
+            <h2 class="fs-3 fw-bold mb-4 text-center">Mijn Projecten</h2>
+            <div class="row g-4">
+
+                <div class="col-12 col-md-4">
+                    <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                        <h5>Quiz</h5>
+                        <a href="Projecten/Project 1/index.html" target="_blank"
+                            class="btn btn-sm btn-outline-primary mt-2">Bekijk Project</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                        <h5>Minesweeper</h5>
+                        <a href="Projecten/Project 2/index.html" target="_blank"
+                            class="btn btn-sm btn-outline-primary mt-2">Bekijk Project</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                        <h5>Mon-In</h5>
+                        <a href="Projecten/Project 3/index.html" target="_blank"
+                            class="btn btn-sm btn-outline-primary mt-2">Bekijk Project</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                        <h5>Collectables</h5>
+                        <a href="Projecten/Project 4/index.html" target="_blank"
+                            class="btn btn-sm btn-outline-primary mt-2">Bekijk Project</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                        <h5>Prototype Platformer</h5>
+                        <a href="Projecten/Project 5/index.html" target="_blank"
+                            class="btn btn-sm btn-outline-primary mt-2">Bekijk Project</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                        <h5>Platformer</h5>
+                        <a href="Projecten/Project 6/index.html" target="_blank"
+                            class="btn btn-sm btn-outline-primary mt-2">Bekijk Project</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="mb-5">
+            <h2 class="fs-3 fw-bold mb-4 text-center">Contact</h2>
+            <div class="row g-4">
+
+                <div class="col-12 col-md-4">
+                    <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                        <div class="d-flex align-items-center gap-2 mb-3">
+                            <i class="bi bi-person-lines-fill fs-4"></i>
+                            <h6 class="mb-0 fw-bold">Gegevens</h6>
+                        </div>
+                        <p>
+                            Heb je vragen of interesse in een samenwerking? Neem gerust contact met mij op via het
+                            formulier. Bekijk ook mijn GitHub en LinkedIn voor meer informatie over mijn projecten en
+                            ervaring.
+                        </p>
+                        <div class="mt-4">
+                            <a href="https://github.com/Niels-KorffdeGidts" target="_blank"
+                                class="text-dark text-decoration-none">
+                                <i class="bi bi-github fs-4"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/jouw-profiel/" target="_blank"
+                                class="text-primary ms-4">
+                                <i class="bi bi-linkedin fs-4"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-8">
+                    <div class="p-4 h-100 rounded-4 shadow-sm bg-box">
+                        <form action="https://formspree.io/f/xgobbapn" method="POST">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" name="email" required>
+                                <div id="emailHelp" class="form-text">Jouw E-mailadres wordt nooit gedeeld.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Jouw vraag of bericht</label>
+                                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Verzenden</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
 
     <!--Footer -->
-    <footer class="bg-dark text-white text-center py-2 mt-auto bg-gradient">
+    <!-- <footer class="bg-dark text-white text-center py-2 mt-auto bg-gradient">
         &copy; 2026 Niels Korff de Gidts
-    </footer>
+    </footer> -->
 
     <!--links-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
